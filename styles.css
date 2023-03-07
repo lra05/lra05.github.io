@@ -8,24 +8,14 @@
   src: url(/assets/fonts/SteudelMonoDisplay-Regular.ttf);
 }
 * {
-<<<<<<< Updated upstream
-  --text-color: rgb(78, 58, 196);
-  scroll-behavior: smooth;
-}
-=======
   scroll-behavior: smooth;
 }
 
->>>>>>> Stashed changes
 @media screen and (max-width: 750px) {
   * {
     --text-color: red;
   }
 }
-<<<<<<< Updated upstream
-body {
-  margin: 0;
-=======
 html {
   cursor: url(assets/img/cursor.png), auto;
   height: 100vh;
@@ -38,8 +28,7 @@ body {
   display: flex;
 }
 /*#endregion*/
->>>>>>> Stashed changes
-
+ {
   background-image: url(assets/wall4.png);
   background-position: center;
   background-size: cover;
@@ -48,10 +37,7 @@ body {
 }
 h1 {
   font-family: KenPixel-Nova;
-<<<<<<< Updated upstream
-=======
   color: rgb(78, 58, 196);
->>>>>>> Stashed changes
   text-align: center;
   font-size: 6vw;
   width: 58.4vw;
@@ -72,89 +58,6 @@ nav ul {
   display: flex;
 }
 nav ul li {
-<<<<<<< Updated upstream
-  width: 11.7vw;
-  border-bottom: solid 0.2em rgb(68, 49, 173);
-  border-right: solid 0.2em rgb(78, 58, 196);
-  border-top: solid 0.2em rgb(243, 240, 242);
-  border-left: solid 0.2em rgb(221, 189, 209);
-  background-color: #db93bd;
-  text-align: center;
-  float: left;
-  padding: 2vh 0 2vh 0;
-  margin: 0 1.2vw 0 1.2vw;
-  transition-duration: 0.4s;
-}
-nav ul li a {
-  color: var(--text-color);
-  transition-duration: 0.2s;
-  text-decoration: none;
-  font-family: Steudel-Mono;
-}
-nav ul li:hover {
-  background-color: #eed1e2;
-  transition-duration: 0.8s;
-}
-/*nav #portrait {
-  background-image: url(assets/pixel\ portret.png);
-  height: 37vh;
-  width: 40vh;
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-bottom: solid 0.75vw rgb(68, 49, 173);
-  border-right: solid 0.75vw rgb(78, 58, 196);
-  border-top: solid 0.75vw rgb(243, 240, 242);
-  border-left: solid 0.75vw rgb(221, 189, 209);
-  margin: 0 0 0 0;
-} */
-.flexbox {
-  display: flex;
-}
-#bijschrift {
-  border-bottom: solid 0.75vw rgb(68, 49, 173);
-  border-right: solid 0.75vw rgb(78, 58, 196);
-  border-top: solid 0.75vw rgb(243, 240, 242);
-  border-left: solid 0.75vw rgb(221, 189, 209);
-  background-color: rgb(219, 147, 189);
-  width: 35.4vw;
-  margin: 0 0 0 2vw;
-  background-image: url(assets/icons.png);
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position: right 1em top 1em;
-}
-#bijschrift h2 {
-  color: var(--text-color);
-  font-family: kenpixel-nova;
-  font-size: 4em;
-  margin: -0.1em 0 0 0.2em;
-}
-#bijschrift p {
-  color: var(--text-color);
-  font-size: 2em;
-  font-family: Steudel-Mono;
-  margin: 0 0 0 0.2em;
-}
-nav label {
-  background-image: url(assets/pixel\ portret.png);
-  height: 37vh;
-  width: 40vh;
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-bottom: solid 0.75vw rgb(68, 49, 173);
-  border-right: solid 0.75vw rgb(78, 58, 196);
-  border-top: solid 0.75vw rgb(243, 240, 242);
-  border-left: solid 0.75vw rgb(221, 189, 209);
-  background-repeat: no-repeat;
-}
-nav input {
-  display: none;
-}
-#flip:checked + label {
-  transform: scaleY(-1);
-=======
   text-align: center;
   color: rgb(78, 58, 196);
   background: rgb(219, 147, 189);
@@ -168,5 +71,4 @@ nav ul li {
   border-left: solid 0.5vw rgb(78, 58, 196);
   border-top: solid 0.5vw rgb(243, 240, 242);
   border-right: solid 0.5vw rgb(221, 189, 209);
->>>>>>> Stashed changes
 }
