@@ -8,16 +8,37 @@
   src: url(/assets/fonts/SteudelMonoDisplay-Regular.ttf);
 }
 * {
+<<<<<<< Updated upstream
   --text-color: rgb(78, 58, 196);
   scroll-behavior: smooth;
 }
+=======
+  scroll-behavior: smooth;
+}
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 750px) {
   * {
     --text-color: red;
   }
 }
+<<<<<<< Updated upstream
 body {
   margin: 0;
+=======
+html {
+  cursor: url(assets/img/cursor.png), auto;
+  height: 100vh;
+}
+body {
+  margin: 0 20vw 0 20vw;
+  background: top / cover no-repeat url("assets/img/wall5.png");
+}
+.flexbox {
+  display: flex;
+}
+/*#endregion*/
+>>>>>>> Stashed changes
 
   background-image: url(assets/wall4.png);
   background-position: center;
@@ -27,35 +48,31 @@ body {
 }
 h1 {
   font-family: KenPixel-Nova;
+<<<<<<< Updated upstream
+=======
+  color: rgb(78, 58, 196);
+>>>>>>> Stashed changes
   text-align: center;
-  font-size: 8em;
-  margin: 0;
+  font-size: 6vw;
+  width: 58.4vw;
+  padding: 2vh 0 2vh 0;
+  background: top 0.5vw right 0.5vw / 17% no-repeat url(assets/img/icons.png),
+    rgb(219, 147, 189);
+}
+h1 {
+  border-bottom: solid 0.8vw rgb(68, 49, 173);
+  border-left: solid 0.8vw rgb(78, 58, 196);
+  border-top: solid 0.8vw rgb(243, 240, 242);
+  border-right: solid 0.8vw rgb(221, 189, 209);
 }
 
-header div {
-  margin: 10vh 20vw 0 20vw;
-  height: 20vh;
-  background-color: rgb(219, 147, 189);
-
-  border-bottom: solid 0.75vw rgb(68, 49, 173);
-  border-right: solid 0.75vw rgb(78, 58, 196);
-  border-top: solid 0.75vw rgb(243, 240, 242);
-  border-left: solid 0.75vw rgb(221, 189, 209);
-  color: var(--text-color);
-}
-nav {
-  margin: 0 0 0 20vw;
-}
 nav ul {
+  margin: 0 0 0 -40px;
   list-style-type: none;
-  color: var(--text-color);
-  font-family: "Roboto", sans-serif;
-  font-size: 2em;
-  margin-left: -40px;
-  width: 60vw;
   display: flex;
 }
 nav ul li {
+<<<<<<< Updated upstream
   width: 11.7vw;
   border-bottom: solid 0.2em rgb(68, 49, 173);
   border-right: solid 0.2em rgb(78, 58, 196);
@@ -137,4 +154,19 @@ nav input {
 }
 #flip:checked + label {
   transform: scaleY(-1);
+=======
+  text-align: center;
+  color: rgb(78, 58, 196);
+  background: rgb(219, 147, 189);
+  width: 14vw;
+
+  margin: 0 1vw 0 0;
+  padding: 1vh 0 1vh 0;
+}
+nav ul li {
+  border-bottom: solid 0.5vw rgb(68, 49, 173);
+  border-left: solid 0.5vw rgb(78, 58, 196);
+  border-top: solid 0.5vw rgb(243, 240, 242);
+  border-right: solid 0.5vw rgb(221, 189, 209);
+>>>>>>> Stashed changes
 }
