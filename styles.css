@@ -16,13 +16,15 @@
   scroll-behavior: smooth;
   cursor: url(assets/img/cursor.png), auto;
 }
-
+/* 
 @media screen and (max-width: 750px) {
   * {
-    /* test c: (working)
-    --text-color: red;*/
+   test c: (working)
+    --text-color: red;
+    --titles-font: impact;
+    
   }
-}
+}*/
 body {
   margin: 0;
   background: top / cover no-repeat url("assets/img/wall4.png");
