@@ -1,3 +1,4 @@
+/*#region fonts*/
 @font-face {
   font-family: KenPixel-Nova;
   src: url(https://raw.githubusercontent.com/jerrydenton/sumScore/master/sumScore/Assets/sumScore/Fonts/KenPixel%20Nova.ttf);
@@ -7,26 +8,29 @@
   font-family: Steudel-Mono;
   src: url(/assets/fonts/SteudelMonoDisplay-Regular.ttf);
 }
+/*#endregion*/
+/*#region variables, site behavior, general ui*/
 * {
   --text-color: rgb(78, 58, 196);
+  --titles-font: KenPixel-Nova;
   scroll-behavior: smooth;
+  cursor: url(assets/img/cursor.png), auto;
 }
+
 @media screen and (max-width: 750px) {
   * {
-    --text-color: red;
+    /* test c: (working)
+    --text-color: red;*/
   }
 }
 body {
   margin: 0;
-
-  background-image: url(assets/wall4.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: top / cover no-repeat url("assets/img/wall4.png");
 }
+/*#endregion*/
+
 h1 {
-  font-family: KenPixel-Nova;
+  font-family: var(--titles-font);
   text-align: center;
   font-size: 8em;
   margin: 0;
@@ -57,10 +61,10 @@ nav ul {
 }
 nav ul li {
   width: 11.7vw;
-  border-bottom: solid 0.2em rgb(68, 49, 173);
-  border-right: solid 0.2em rgb(78, 58, 196);
-  border-top: solid 0.2em rgb(243, 240, 242);
-  border-left: solid 0.2em rgb(221, 189, 209);
+  border-bottom: solid 0.5vw rgb(68, 49, 173);
+  border-right: solid 0.5vw rgb(78, 58, 196);
+  border-top: solid 0.5vw rgb(243, 240, 242);
+  border-left: solid 0.5vw rgb(221, 189, 209);
   background-color: #db93bd;
   text-align: center;
   float: left;
@@ -102,7 +106,7 @@ nav ul li:hover {
   background-color: rgb(219, 147, 189);
   width: 35.4vw;
   margin: 0 0 0 2vw;
-  background-image: url(assets/icons.png);
+  background-image: url(assets/img/icons.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: right 1em top 1em;
@@ -120,7 +124,7 @@ nav ul li:hover {
   margin: 0 0 0 0.2em;
 }
 nav label {
-  background-image: url(assets/pixel\ portret.png);
+  background-image: url(assets/img/pixel\ portret.png);
   height: 37vh;
   width: 40vh;
   background-position: bottom;
