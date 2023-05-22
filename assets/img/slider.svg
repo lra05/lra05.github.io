@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 597">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: Impact, Impact;
+        font-size: 50.06px;
+      }
+
+      .cls-2 {
+        fill: #ff5768;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="-242.5" y="246.5" width="593" height="104" rx="38.89" ry="38.89" transform="translate(352.5 244.5) rotate(90)"/>
+    <path d="m67.11,597h-26.21c-22.55,0-40.89-18.34-40.89-40.89V40.89C0,18.34,18.34,0,40.89,0h26.21c22.55,0,40.89,18.34,40.89,40.89v515.21c0,22.55-18.34,40.89-40.89,40.89ZM40.89,4C20.55,4,4,20.55,4,40.89v515.21c0,20.34,16.55,36.89,36.89,36.89h26.21c20.34,0,36.89-16.55,36.89-36.89V40.89c0-20.34-16.55-36.89-36.89-36.89h-26.21Z"/>
+  </g>
+  <text class="cls-1" transform="translate(42.16 74.69)"><tspan x="0" y="0">0</tspan></text>
+  <text class="cls-1" transform="translate(42.16 127.69)"><tspan x="0" y="0">1</tspan></text>
+  <text class="cls-1" transform="translate(42.16 180.69)"><tspan x="0" y="0">2</tspan></text>
+  <text class="cls-1" transform="translate(42.16 233.69)"><tspan x="0" y="0">3</tspan></text>
+  <text class="cls-1" transform="translate(42.16 286.69)"><tspan x="0" y="0">4</tspan></text>
+  <text class="cls-1" transform="translate(42.16 339.69)"><tspan x="0" y="0">5</tspan></text>
+  <text class="cls-1" transform="translate(42.16 392.69)"><tspan x="0" y="0">6</tspan></text>
+  <text class="cls-1" transform="translate(42.16 445.69)"><tspan x="0" y="0">7</tspan></text>
+  <text class="cls-1" transform="translate(42.16 498.69)"><tspan x="0" y="0">8</tspan></text>
+  <text class="cls-1" transform="translate(42.16 551.69)"><tspan x="0" y="0">9</tspan></text>
+</svg>

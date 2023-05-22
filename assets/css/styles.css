@@ -1,0 +1,284 @@
+/*#region general*/
+* {
+  margin: 0;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "impactreg";
+  src: local("impactreg"), url("/assets/impactreg.woff") format("woff"),
+    url("/assets/impactreg.ttf") format("truetype");
+}
+/*#endregion*/
+body {
+  background-color: #c45d67;
+  color: white;
+}
+header {
+  font-family: "impactreg", sans-serif;
+  text-align: center;
+}
+#intro {
+  margin-top: 5vh;
+  height: 120vh;
+}
+#spelbord {
+  height: 300vh;
+}
+#characters {
+  height: 190vh;
+}
+#video {
+  height: 200vh;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 10vw;
+  font-weight: 500;
+}
+header p {
+  font-weight: 500;
+  font-size: 2vw;
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  font-family: "impactreg";
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 500;
+}
+nav {
+  position: fixed;
+  right: 0;
+  top: 20vh;
+  width: 15vw;
+}
+nav a {
+  text-decoration: none;
+  margin: 0;
+}
+nav a p {
+  color: white;
+  width: 10vw;
+  padding: 1vw;
+  height: 2vw;
+  margin: 0;
+  transition-duration: 0.1s;
+
+  background-color: #b23642;
+  text-align: left;
+  font-family: "impactreg";
+  font-size: 2vw;
+  float: right;
+}
+nav a p:hover {
+  width: 11vw;
+  transition-duration: 0.2s;
+}
+#slider {
+  background-image: url(/assets/img/slider.svg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 20vw;
+  float: left;
+}
+#sliderbtn1 {
+  background-image: url(/assets/img/sliderL.svg);
+
+  background-repeat: no-repeat;
+  margin: 0 0 0 -2vh;
+}
+#sliderbtn2 {
+  background-image: url(/assets/img/sliderR.svg);
+  background-repeat: no-repeat;
+  margin: 0 0 0 6.5vh;
+}
+.sliders {
+  height: 4vh;
+  width: 5vh;
+}
+.sliders:hover {
+  cursor: grab;
+}
+.sliders:active {
+  cursor: grabbing;
+}
+#spelbord p {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  float: left;
+  font-size: 1.5vw;
+  margin: 15vh 0 0 2vw;
+  width: 40vw;
+}
+#bord {
+  background-image: url(/assets/img/spelbord.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+  width: 40vw;
+  margin: 25vh 0 0 0;
+}
+#welkom {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.5vw;
+  margin: 15vh 0 0 0;
+}
+#text {
+  margin: 80vh 0 0 15vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5vw;
+}
+
+#video p b {
+  font-size: 2vw;
+}
+.webtext {
+  width: 50vw;
+  margin: 5vh 0 0 25vw;
+  font-size: 1.5vw;
+}
+#video a {
+  text-decoration: none;
+  color: white;
+}
+#pocanime {
+  background-image: url(/assets/img/oldsite.png);
+  width: 30vw;
+  padding: 30vh 0 0 0;
+  margin: 0vh 0 0 15vw;
+  background-size: 120%;
+  background-position: center;
+  transition: all 0.2s ease;
+  float: left;
+}
+#pocanime p {
+  background-color: rgba(128, 128, 128, 0.655);
+  text-align: center;
+  font-size: 1.3vw;
+}
+#pocanime:hover {
+  background-size: 150%;
+}
+#site2 {
+  background-image: url(/assets/img/oldsite2.png);
+  background-size: 120%;
+  background-position: center;
+  transition: all 0.2s ease;
+  margin: 10vh 0 0 55vw;
+  width: 30vw;
+  padding: 30vh 0 0 0;
+}
+#site2:hover {
+  background-size: 150%;
+}
+#site2 p {
+  background-color: rgba(128, 128, 128, 0.655);
+  text-align: center;
+  font-size: 1.3vw;
+}
+#flowchart {
+  margin: 5vh 0 0 0;
+  height: 60vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/assets/img/flowchart.png);
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 0 0 2vh 0;
+}
+#characters p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5vw;
+}
+#characters iframe {
+  float: left;
+  margin: 5vh 0 0 15vw;
+}
+#aedesc {
+  margin: 6vh 0 0 2vw;
+  width: 40vw;
+  float: left;
+}
+#aess {
+  background-image: url(/assets/img/aess.png);
+  height: 40vh;
+  margin: 40vh 0 -30vh 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#logo {
+  margin: 50vh 0 0 20vw;
+  left: 0;
+  width: 30vw;
+}
+#logoimg {
+  height: 45vh;
+  width: 40vw;
+  margin: -25vh 15vw 0 0;
+  background-image: url(/assets/img/logo_alt-19.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  float: right;
+}
+#oldlogo {
+  background-image: url(/assets/img/oglogo1.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 20vw;
+  float: left;
+  margin: 0 0 0 25vw;
+}
+#oldlogo2 {
+  background-image: url(/assets/img/oglogo2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 20vw;
+  float: left;
+  margin: 0vh 0 0 3vw;
+}
+#pcard {
+  height: 5vh;
+  width: 20vw;
+  background-image: url(/assets/img/pcardb.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 30vh 0 0 50vw;
+  padding: 50vh 0 0 0;
+  transition-duration: 0.5s;
+}
+#pcard:hover {
+  background-image: url(/assets/img/pcardf.png);
+  transition-duration: 0.5s;
+}
+#qcard {
+  height: 5vh;
+  width: 20vw;
+  background-image: url(/assets/img/qcardb.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0vh 0 0 10vw;
+  padding: 45vh 0 0 0;
+  transition-duration: 0.5s;
+}
+#qcard:hover {
+  background-image: url(/assets/img/qcardf.png);
+  transition-duration: 0.5s;
+}
+#kaarten {
+  margin: 0 0 0 10vw;
+}
